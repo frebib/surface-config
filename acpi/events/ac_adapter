@@ -1,0 +1,2 @@
+event=ac_adapter
+action=pkill -RTMIN+11 i3blocks

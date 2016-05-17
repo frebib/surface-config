@@ -1,0 +1,2 @@
+event=button/lid
+action=logger eatadick #/etc/acpi/handler/lidclose %e

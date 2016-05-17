@@ -1,0 +1,3 @@
+#!/bin/sh
+
+DISPLAY=:0 /home/frebib/.config/i3/lock.sh
