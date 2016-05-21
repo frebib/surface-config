@@ -8,4 +8,5 @@ ln -sfv $dir/xorg.conf.d /etc/X11
 
 for service in "$dir/systemd/*"; do
     ln -sfv $service /etc/systemd/system/
+    systemctl enable --now $service
 done
