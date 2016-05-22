@@ -3,6 +3,7 @@
 cd $(dirname ${BASH_SOURCE[0]})
 dir=$(pwd)
 
+rm -rf /etc/acpi /etc/X11/xorg.conf.d
 ln -sfv $dir/acpi /etc
 ln -sfv $dir/xorg.conf.d /etc/X11
 
